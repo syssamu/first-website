@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+}
+
+h2, h3{
+    margin: 0px;
+}
+
+body{
+    background-color: #a3adb8b0;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.text{
+    height: 100%;
+    min-height: 100vh;
+    margin-bottom: 100px;
+}
+
+header{
+    padding: 20px 10px 0px 10px;
+    background-color: #4e6172;
+    text-align: center;
+    position: sticky;
+    top: -60px;
+    border-bottom: 1px solid black;
+}
+
+#logo{
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0px;
+}
+
+nav ul li{
+    display: inline;
+    float: left;
+}
+
+nav ul li a{
+    display: block;
+    padding: 11px 15px 11px 15px;
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: #668d3c
+}
+
+.active{
+    background-color: #687686;
+}
+
+.info{
+    overflow: hidden;
+}
+
+.image{
+    float: left;
+    width: 80%;
+}
+
+#main_img{
+    width: 800px;
+    height: 220px;
+}
+
+.list{
+    float: right;
+    width: 20%;
+    background-color: #e8e5bb;
+    height: 220px;
+}
+
+.list h3{
+    text-align: center;
+    background-color: #668d3c;
+}
+
+main{
+    background-color: aliceblue;
+    padding: 10px;
+
+}
+
+article{
+    margin: 10px;
+    padding: 30px 0;
+    border-bottom: 1px solid grey;
+    background-color: #dbcb606c;
+}
+
+h2{
+    text-decoration: underline;
+    margin: 0 20px;
+    padding: 10px
+}
+
+article p{
+    background-color: #ffffff;
+    margin: 0 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+article span{
+    float: right;
+    padding: 5px;
+    margin-right: 20px;
+    color: gray;
+}
+
+footer{
+    background-color: #a3adb8d8;
+    padding: 20px;
+    text-align: center;
+    border-radius: 100% 100% 0 0;
+    margin: 50px 0 0 0;
+    clear: both;
+    position: relative;
+    height: 60px;
+    margin-top: -60px;
+    background-image: radial-gradient( at bottom, rgba(58, 91, 124, 0.51) 5%, rgb(191, 198, 205) 75%);
+}
+
+#portrait-info{
+    overflow: hidden;
+}
+
+#portrait{
+    width: 300px;
+}
+
+#portrait-list{
+    margin-left: 300px;
+    background-color: #e8e5bb;
+    height: 300px;
+}
+
+#portrait-list ul{
+    font-size: 1.3em;
+    margin: 0;
+    padding: 40px 0 40px 100px;
+    line-height: 1.7;
+}
+
+#story{
+    margin: 10px;
+    padding: 30px 0;
+    border-bottom: 1px solid grey;
+    background-color: #dbcb606c;
+}
+
+#story p{
+    background-color: #ffffff;
+    margin: 0 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#timeline{
+    margin: 10px;
+    padding: 30px 0;
+    border-bottom: 1px solid grey;
+    background-color: #dbcb606c;
+}
+
+#timeline ol{
+    background-color: #ffffff;
+    margin: 0 20px;
+    padding: 5px;
+    border-radius: 5px;
+    padding-left: 25px;
+
+}
